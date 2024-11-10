@@ -75,14 +75,13 @@ Below are the steps to set up the pandas_playground environment specifically for
 
 ```bash
 # create the conda environment
-conda create -- <env>
+conda create -n pandas_playground python=3.9 <env>
 ```
 
 ### This is how you activate the virtual environment in a terminal and install the project dependencies
 
 ```bash
 # activate the virtual environment
-conda create -n pandas_playground python=3.9 <env>
 conda activate pandas_playground
 # install the pip package
 conda install pip
