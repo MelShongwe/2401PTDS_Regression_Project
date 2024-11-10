@@ -14,9 +14,9 @@
 * [5. Team Members](#team-members)
 
 ## 1. Project Overview <a class="anchor" id="project-description"></a>
-Your team of environmental consultants and data scientists are tasked by a coalition of agricultural stakeholders to analyse and predict the effect of CO2 emissions on climate change from the agri-food sector. The stakeholders include policymakers, agricultural businesses, and environmental organisations. Your project aims to understand the impact of agricultural activities on climate change and develop strategies for sustainable practices. Utilising a comprehensive dataset compiled from the Food and Agriculture Organization (FAO) and the Intergovernmental Panel on Climate Change (IPCC), you will explore various emission sources, perform regression analysis to predict temperature variations, and offer actionable insights for the stakeholders.
+Our team of environmental consultants and data scientists has been tasked by a coalition of agricultural stakeholders to analyze and predict the effects of CO2 emissions on climate change within the agri-food sector. These stakeholders include policymakers, agricultural businesses, and environmental organizations. Our goal is to understand how agricultural activities contribute to climate change and to develop strategies for more sustainable practices. Using a comprehensive dataset compiled from the Food and Agriculture Organization (FAO) and the Intergovernmental Panel on Climate Change (IPCC), we will examine various emission sources, perform regression analyses to predict temperature changes, and provide actionable insights for our stakeholders.
 
-By the end of this project, you will have a thorough understanding of the impact of agricultural activities on CO2 emissions and climate change. Your findings and recommendations will contribute to the ongoing efforts to promote sustainability within the agri-food sector, providing valuable insights for the stakeholders involved in this initiative.
+By the end of this project, we aim to have a deep understanding of the impact of agricultural activities on CO2 emissions and climate change. Our findings and recommendations will contribute to ongoing sustainability efforts in the agri-food sector, offering valuable guidance to the stakeholders involved in this initiative.
 
 ## 2. Dataset <a class="anchor" id="dataset"></a>
 Emissions from the agri-food sector play a crucial role in climate change, as they represent a significant share of global annual emissions. The dataset highlights the substantial contribution of the various sources of emissions. Therefore, it is essential to understand and address the environmental impact of the agri-food industry to mitigate climate change and promote sustainable practices within this sector.
@@ -62,26 +62,28 @@ Forestland is the only feature that exhibits negative emissions due to its role 
 ## 3. Packages <a class="anchor" id="packages"></a>
 
 To carry out all the objectives for this repo, the following necessary dependencies were loaded:
-+ `Pandas 2.2.2` and `Numpy 1.26`
-+ `Matplotlib 3.8.4`
++ `Pandas 1.4.4` and `Numpy 1.21.5`
++ `Matplotlib 3.5.2`
++ `Seaborn 0.11.2`
  
 
 ## 4. Environment <a class="anchor" id="environment"></a>
 
-It's highly recommended to use a virtual environment for your projects, there are many ways to do this; we've outlined one such method below. Make sure to regularly update this section. This way, anyone who clones your repository will know exactly what steps to follow to prepare the necessary environment. The instructions provided here should enable a person to clone your repo and quickly get started.
+Below are the steps to set up the pandas_playground environment specifically for the regression project.
 
 ### Create the new evironment - you only need to do this once
 
 ```bash
 # create the conda environment
-conda create --name <env>
+conda create -- <env>
 ```
 
 ### This is how you activate the virtual environment in a terminal and install the project dependencies
 
 ```bash
 # activate the virtual environment
-conda activate <env>
+conda create -n pandas_playground python=3.9 <env>
+conda activate pandas_playground
 # install the pip package
 conda install pip
 # install the requirements for this project
