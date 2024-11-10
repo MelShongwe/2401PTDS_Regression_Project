@@ -92,9 +92,8 @@ pip install -r requirements.txt
 
 | Name                                                                                        |  Email              
 |---------------------------------------------------------------------------------------------|--------------------             
-| [Jana Liebenberg-Fouche](https://github.com/Jana-Liebenberg)                                | jliebenberg-fouche@sandtech.com
-| [Edmund Dotsey](https://github.com/Edotsey)                                                 | edotsey@sandtech.com
-| [Farayi Myambo](https://github.com/Farayi-Explore)                                          | fmyambo@sandtech.com
+| [Melissa Shongwe](https://github.com/MelShongwe/2401PTDS_Regression_Project)                                | Melissa.Shongwe@fnb.co.za
+
 
 
 
