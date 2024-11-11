@@ -94,7 +94,7 @@ pip install -r requirements.txt
 | Name                                                                                        |  Email              
 |---------------------------------------------------------------------------------------------|--------------------             
 | [Melissa Shongwe](https://github.com/MelShongwe/2401PTDS_Regression_Project)                                | Melissa.Shongwe@fnb.co.za
-
+|[Trello Board](https://trello.com/b/fpld0txI/regression-project-workflow)
 
 
 
